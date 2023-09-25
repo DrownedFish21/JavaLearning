@@ -2,7 +2,6 @@ public class demo5 {
     public static void main(String[] args) {
         R r = new R();
         Thread thread1 = new Thread(r);
-        //Thread thread2 = new Thread(i);
         thread1.start();
         for (int i = 1; i < 101; i++) {
             if(i%2!=0)
