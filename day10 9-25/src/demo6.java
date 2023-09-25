@@ -11,9 +11,11 @@ public class demo6 {
         //线程优先级默认是5,取值范围[1,10]
         t1.setPriority(1);
         t3.setPriority(10);
+        System.out.println("t1优先级" + t1.getPriority());
         t1.start();
         t2.start();
         t3.start();
+
     }
 }
 class T implements Runnable{
