@@ -16,8 +16,7 @@ class CC implements Runnable{
     @Override
     public void run() {
         while (true){
-            boolean flag = Cell();
-            if(!flag){
+            if(!Cell()){
                 break;
             }
         }
