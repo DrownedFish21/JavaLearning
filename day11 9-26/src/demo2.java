@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /*
     Lambda表达式
  */
@@ -40,7 +44,6 @@ public class demo2 {
     static void useAdd(Addable addable){
         System.out.println(addable.add(10, 20));
     }
-
 }
 interface Calculate {
     Integer cal(Integer x,Integer y);
